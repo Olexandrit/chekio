@@ -1,7 +1,7 @@
 import sendgrid
 from sendgrid.helpers.mail import Email,  Mail, Content
 
-API_KEY = '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'
+API_KEY = 'API_KEY'
 SUBJECT = 'Welcome'
 
 sg = sendgrid.SendGridAPIClient(apikey=API_KEY)
