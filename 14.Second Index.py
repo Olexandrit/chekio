@@ -2,7 +2,10 @@ def second_index(text: str, symbol: str):
     """
         returns the second index of a symbol in a given text
     """
-    # your code here
+
+    if text.count(symbol) <= 1:
+        return None
+
     try:
         find_symbol_index = text.rindex(symbol)
         print(find_symbol_index)
